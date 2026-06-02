@@ -1,0 +1,358 @@
+{
+  "node": "Program",
+  "position": {
+    "line": 4,
+    "column": 1,
+    "index": 3
+  },
+  "declarations": [
+    {
+      "node": "FunctionDefinition",
+      "position": {
+        "line": 4,
+        "column": 1,
+        "index": 3
+      },
+      "return_type": "int",
+      "name": "main",
+      "parameters": [],
+      "body": {
+        "node": "CompoundStatement",
+        "position": {
+          "line": 5,
+          "column": 1,
+          "index": 14
+        },
+        "items": [
+          {
+            "node": "Declaration",
+            "position": {
+              "line": 6,
+              "column": 5,
+              "index": 20
+            },
+            "type_specifier": "int",
+            "name": "arr",
+            "initializer": {
+              "node": "InitializerList",
+              "position": {
+                "line": 6,
+                "column": 17,
+                "index": 32
+              },
+              "values": [
+                {
+                  "node": "Literal",
+                  "position": {
+                    "line": 6,
+                    "column": 18,
+                    "index": 33
+                  },
+                  "value": "1",
+                  "raw": "1"
+                },
+                {
+                  "node": "Literal",
+                  "position": {
+                    "line": 6,
+                    "column": 21,
+                    "index": 36
+                  },
+                  "value": "2",
+                  "raw": "2"
+                },
+                {
+                  "node": "Literal",
+                  "position": {
+                    "line": 6,
+                    "column": 24,
+                    "index": 39
+                  },
+                  "value": "3",
+                  "raw": "3"
+                },
+                {
+                  "node": "Literal",
+                  "position": {
+                    "line": 6,
+                    "column": 27,
+                    "index": 42
+                  },
+                  "value": "4",
+                  "raw": "4"
+                },
+                {
+                  "node": "Literal",
+                  "position": {
+                    "line": 6,
+                    "column": 30,
+                    "index": 45
+                  },
+                  "value": "5",
+                  "raw": "5"
+                },
+                {
+                  "node": "Literal",
+                  "position": {
+                    "line": 6,
+                    "column": 33,
+                    "index": 48
+                  },
+                  "value": "6",
+                  "raw": "6"
+                },
+                {
+                  "node": "Literal",
+                  "position": {
+                    "line": 6,
+                    "column": 36,
+                    "index": 51
+                  },
+                  "value": "7",
+                  "raw": "7"
+                },
+                {
+                  "node": "Literal",
+                  "position": {
+                    "line": 6,
+                    "column": 39,
+                    "index": 54
+                  },
+                  "value": "8",
+                  "raw": "8"
+                },
+                {
+                  "node": "Literal",
+                  "position": {
+                    "line": 6,
+                    "column": 42,
+                    "index": 57
+                  },
+                  "value": "9",
+                  "raw": "9"
+                },
+                {
+                  "node": "Literal",
+                  "position": {
+                    "line": 6,
+                    "column": 45,
+                    "index": 60
+                  },
+                  "value": "10",
+                  "raw": "10"
+                }
+              ]
+            },
+            "array_size": null
+          },
+          {
+            "node": "ExpressionStatement",
+            "position": {
+              "line": 7,
+              "column": 5,
+              "index": 69
+            },
+            "expression": {
+              "node": "CallExpression",
+              "position": {
+                "line": 7,
+                "column": 33,
+                "index": 97
+              },
+              "callee": {
+                "node": "Identifier",
+                "position": {
+                  "line": 7,
+                  "column": 5,
+                  "index": 69
+                },
+                "name": "printf"
+              },
+              "arguments": [
+                {
+                  "node": "Literal",
+                  "position": {
+                    "line": 7,
+                    "column": 12,
+                    "index": 76
+                  },
+                  "value": "Sample Loop Code!\\n",
+                  "raw": "\"Sample Loop Code!\\n\""
+                }
+              ]
+            }
+          },
+          {
+            "node": "ForStatement",
+            "position": {
+              "line": 9,
+              "column": 5,
+              "index": 105
+            },
+            "initializer": {
+              "node": "Declaration",
+              "position": {
+                "line": 9,
+                "column": 10,
+                "index": 110
+              },
+              "type_specifier": "int",
+              "name": "i",
+              "initializer": {
+                "node": "Literal",
+                "position": {
+                  "line": 9,
+                  "column": 18,
+                  "index": 118
+                },
+                "value": "1",
+                "raw": "1"
+              },
+              "array_size": null
+            },
+            "condition": {
+              "node": "BinaryExpression",
+              "position": {
+                "line": 9,
+                "column": 23,
+                "index": 123
+              },
+              "operator": "<",
+              "left": {
+                "node": "Identifier",
+                "position": {
+                  "line": 9,
+                  "column": 21,
+                  "index": 121
+                },
+                "name": "i"
+              },
+              "right": {
+                "node": "BinaryExpression",
+                "position": {
+                  "line": 9,
+                  "column": 28,
+                  "index": 128
+                },
+                "operator": "+",
+                "left": {
+                  "node": "Literal",
+                  "position": {
+                    "line": 9,
+                    "column": 25,
+                    "index": 125
+                  },
+                  "value": "10",
+                  "raw": "10"
+                },
+                "right": {
+                  "node": "Literal",
+                  "position": {
+                    "line": 9,
+                    "column": 30,
+                    "index": 130
+                  },
+                  "value": "1",
+                  "raw": "1"
+                }
+              }
+            },
+            "increment": {
+              "node": "UnaryExpression",
+              "position": {
+                "line": 9,
+                "column": 34,
+                "index": 134
+              },
+              "operator": "++",
+              "operand": {
+                "node": "Identifier",
+                "position": {
+                  "line": 9,
+                  "column": 33,
+                  "index": 133
+                },
+                "name": "i"
+              },
+              "postfix": true
+            },
+            "body": {
+              "node": "CompoundStatement",
+              "position": {
+                "line": 10,
+                "column": 5,
+                "index": 142
+              },
+              "items": [
+                {
+                  "node": "ExpressionStatement",
+                  "position": {
+                    "line": 11,
+                    "column": 9,
+                    "index": 152
+                  },
+                  "expression": {
+                    "node": "CallExpression",
+                    "position": {
+                      "line": 11,
+                      "column": 53,
+                      "index": 196
+                    },
+                    "callee": {
+                      "node": "Identifier",
+                      "position": {
+                        "line": 11,
+                        "column": 9,
+                        "index": 152
+                      },
+                      "name": "printf"
+                    },
+                    "arguments": [
+                      {
+                        "node": "Literal",
+                        "position": {
+                          "line": 11,
+                          "column": 16,
+                          "index": 159
+                        },
+                        "value": "Running Loop for %d iteration!\\n",
+                        "raw": "\"Running Loop for %d iteration!\\n\""
+                      },
+                      {
+                        "node": "Identifier",
+                        "position": {
+                          "line": 11,
+                          "column": 52,
+                          "index": 195
+                        },
+                        "name": "i"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "node": "ReturnStatement",
+            "position": {
+              "line": 14,
+              "column": 5,
+              "index": 210
+            },
+            "value": {
+              "node": "Literal",
+              "position": {
+                "line": 14,
+                "column": 12,
+                "index": 217
+              },
+              "value": "0",
+              "raw": "0"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
