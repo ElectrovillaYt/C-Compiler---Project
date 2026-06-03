@@ -33,10 +33,6 @@ main.c or any.c source file
 ## How To Run
 
 Open a terminal in the project root:
-
-```powershell
-cd "C:\Users\Gaurav\Desktop\Compiler"
-```
 ```powershell
 Run the compiler on specific input file  `main.c` => Give input file by `python main.py ./C source file path`
 
