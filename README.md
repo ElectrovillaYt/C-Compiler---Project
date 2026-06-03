@@ -1,4 +1,4 @@
-# C Compiler Frontend - Semester Project
+# C Compiler Frontend Representation - Semester Project
 
 ## This project is a Python-based frontend reprsentation for a small C compiler. Reads C source code, runs it through separate compiler phases, and generates a parse tree in json form for easier representation.
 
